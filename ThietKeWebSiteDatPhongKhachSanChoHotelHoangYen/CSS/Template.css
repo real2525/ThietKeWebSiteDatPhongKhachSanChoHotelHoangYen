@@ -1,0 +1,91 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	/* chỉnh lại mặc định cho từng trình duyệt*/
+	margin:0px;
+	padding:0px;
+}
+body{
+	width:1000px;
+	margin-left:180px;
+	background-image:url(../Images/background.jpg);
+	background-size:100%;
+	margin:0px auto; 
+	}
+div{
+	background:#FFF;
+	}
+header>img{
+	/*chỉnh hình ở giữa*/
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	height:100px;
+	width:1000px;
+}
+nav{
+	/*canh chỉnh kích thước thẻ nav*/
+	background:#999;
+	height:45px;
+}
+nav>ul{
+	/* dồn thẻ ul qua trái ,canh lề thể ul cach lề trái 60px,làm mất dấu chấm ở mỗi dòng li torng ul*/
+	float:left;
+	padding-left:10px;
+	color:#F0F;
+	list-style:none;
+}
+
+nav>ul>li{
+	/*dồn thể li qua trái tạo thành hàng ngang giống */
+	float:left;
+	padding:13px 15px;
+	border-right:#FFF solid 1px;
+}
+
+nav>ul>li a{
+	/*làm cho chữ mất i dấu gạch chân*/
+	text-decoration:none;
+}
+
+.vitrianh>img{
+	padding-left:80px;
+	width:850px;
+	height:500px;
+}
+
+.thongtin{
+	padding-left:80px;
+	font-size:24px;
+	text-decoration:none;
+	}
+.giatien{
+	padding-left:80px;
+	font-size:24px;
+	color:#F00;	
+	}
+
+.chan>img{
+	width:1000px;
+}
+.logo>img{
+	float:left;
+	width:253px;
+	height:45px;
+	}
+.hotline>img{
+	padding-left:300px;
+	}
+	
+	
+
+	
+	
+	
+
+
+
+
+
+
